@@ -1,0 +1,221 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #505050;
+  background-color: rgb(236, 238, 241);
+}
+
+a {
+  color: rgb(0, 119, 197);
+}
+
+.sign_in_nav{
+  overflow: hidden;
+  padding: 10px 30px;
+}
+.sign_in_nav > * {
+  float: right;
+}
+.sign_in_text {
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+  text-align: right;
+  padding-right: 10px;
+}
+.sign_in_text a{
+  text-decoration: none;
+}
+
+.sign_in_nav button{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 119, 197);
+
+  border: 1px solid rgb(76, 76, 76);
+  border-radius: 4px;
+  padding: 0 20px;
+  height: 34px;
+
+  font-size: 13.5px;
+}
+.white_lock_img{
+  background: url("../images/icon-whitelock.png") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: .8em;
+  height: 13.5px;
+  margin-right: 8px;
+}
+
+/*=====================*/
+#logo_container{
+  margin: 20px auto;
+  background-image: url("../images/ecosystem_logos_new.png");
+  width: 118px;
+  height: 35px;;
+}
+
+.main_container{
+  width: 380px;
+  height: 682px;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+#product_logos{
+  padding: 0 3px;
+}
+#product_logos > *{
+  background-image: url("../images/ecosystem_logos_new.png");
+  display: inline-block;
+  height: 23px;
+  background-position-y: 27px;
+}
+#turbotax{
+  width: 101px;
+  background-position-x: 0px;
+}
+#quickbooks{
+  width: 126px;
+  background-position-x: 343px;
+  margin: 0 6px;
+}
+#mint{
+  width: 64px;
+  background-position-x: 204px;
+}
+
+#logo_seperator{
+  border: none;
+  height: 1px;
+  margin: 21px 0 15px 0;
+  background-color: rgb(226, 225, 225);
+}
+
+h1{
+  font-size: 24px;
+  text-align: center;
+  line-height: 26.8px;
+}
+h2{
+  padding-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 16.8px;
+  padding-bottom: 20px;
+}
+h2 a{
+  font-size: 12px;
+}
+
+label{
+  padding-bottom: 6px;
+  display: block;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+fieldset{
+  margin-bottom: 30px;
+}
+input{
+  border-radius: 3px;
+  border: 1px solid rgb(193, 197, 200);
+  font-size: 16.8px;
+  height: 34px;
+  width: 320px;
+}
+form p{
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.lock_left{
+  background: url("../images/lock-left-grey@3x.png") no-repeat 290px;
+
+  background-size: 21px 21px;
+}
+
+form button{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 119, 197);
+
+  border: 1px solid rgb(76, 76, 76);
+  border-radius: 4px;
+  padding: 12px 6px;
+  height: 44px;
+  width: 320px;
+
+  text-align: center;
+  font-size: 15.75px;
+  margin-bottom: 50px;
+}
+
+.agreement{
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(187, 187, 187);
+}
+.agreement a{
+  text-decoration: none;
+}
+
+
+
+footer{
+  padding: 20px 0;
+}
+footer > *{
+  margin: 0 auto;
+  text-align: center;
+  line-height: 18px;
+}
+#small_logo_container{
+  background-image: url("../images/intuit_grey.svg");
+  background-position: 10px 50%;
+  background-size: cover; 
+  width: 82px;
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+footer p{
+  font-size: 12px;
+}
+.footer_links{
+  padding-top: 8px;
+}
+.footer_links a{
+  color: #505050;
+  text-decoration: none;
+  padding: 0 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

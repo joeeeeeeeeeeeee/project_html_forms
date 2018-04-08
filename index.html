@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project HTML Forms</title>
+  <link rel="stylesheet" href="assets/stylesheets/reset.css">
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+<body>
+  <nav class="sign_in_nav">
+    <button><i class="white_lock_img"></i>Sign In</button>
+    <div class="sign_in_text">
+      <p>Already have an Intuit account?</p>
+      <a href="#"><p>I forgot my User ID or Password</p></a>
+    </div>
+  </nav>
+
+  <div id="logo_container">
+  </div>
+
+  <section class="main_container">
+    <div id="product_logos">
+      <a href="#" id="turbotax"></a>
+      <a href="#" id="quickbooks"></a>
+      <a href="#" id="mint"></a>
+    </div>
+
+    <hr id="logo_seperator">
+
+    <h1>One Account.<br>
+        Everything Intuit.</h1>
+    <h2>Create an account for all of Intuit's products<br>
+        including Mint. <a>Learn more</a> </h2>
+
+    <form>
+      <fieldset>
+        <label for="email">Email address</label>
+        <input type="email" id="email">
+      </fieldset>
+
+      <fieldset>
+        <label for="phone">Phone (reccomended)</label>
+        <input type="tel" id="phone">
+        <p>Standard call, messaging or data rates may apply.</p>
+      </fieldset>
+
+      <fieldset>
+        <label for="password">Password</label>
+        <input type="password" id="Password" class="lock_left">
+      </fieldset>
+
+      <button type="submit"><span class="white_lock_img"></span>Create Account</button>
+    </form>
+
+    <p class="agreement">
+      By clicking Create Account, you agree to our<br>
+      <a href="#">License Agreement</a> and <a href="#">Privacy Statement.</a>
+    </p>
+
+  </section>
+
+  <footer>
+    <div id="small_logo_container">
+    </div>
+    <p>
+      Mint bill pay services provided by Intuit Payments Inc. under applicable <a>licenses.</a>
+    </p>
+    <p class="footer_links">
+      <a href="#">Legal</a><a href="#">Privacy</a><a href="#">Security</a>
+    </p>
+    <p>© 2018 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+    </p>
+    <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+
+  </footer>
+
+</body>
+</html>
